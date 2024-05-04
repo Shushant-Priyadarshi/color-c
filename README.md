@@ -38,7 +38,6 @@ log("Debug: Additional information for debugging.", "debug");
 log("Special: Custom message with special color.", "special");
 
 ```
-
-<img src="./chalk.png" alt="Example Image" width="100px" height="100px">
+![chalk](https://github.com/Shushant-Priyadarshi/color-c/assets/148479955/57c9110b-e903-4411-8d23-5542bb92bf92)
 
 
