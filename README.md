@@ -39,6 +39,6 @@ log("Special: Custom message with special color.", "special");
 
 ```
 
-![chalk](https://github.com/Shushant-Priyadarshi/color-c/assets/148479955/57c9110b-e903-4411-8d23-5542bb92bf92)
+<img src="./chalk.png" alt="Example Image" width="100px" height="100px">
 
 
