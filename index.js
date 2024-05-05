@@ -1,19 +1,18 @@
-import log from "./logger.js"
+import chalk from "chalk";
 
-// Log a message with custom color property
-log("Error: Something went wrong!", "danger");
+const colors ={
+    danger:"red",
+    warning:"yellow",
+    info:"blue",
+    success:"green",
+    debug:"cyan",
+    special:"magenta",
+}
 
-// Log a warning message
-log("Warning: Potential issue detected!", "warning");
+function log(message,property){
+    const  color = colors[property] || "white";
+    console.log(chalk[color](message.toUpperCase()))
+}
 
-// Log an info message
-log("Info: Application started successfully.", "info");
+export default log
 
-// Log a success message
-log("Success: Operation completed.", "success");
-
-// Log a debug message
-log("Debug: Additional information for debugging.", "debug");
-
-// Log a special message
-log("Special: Custom message with special color.", "special");

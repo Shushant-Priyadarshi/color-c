@@ -19,6 +19,8 @@ npm install color-c
 - If a color property is not recognized, the message will be logged with the default color (white).
   
 ```javascript
+import {log} from "console-c"
+
 // Log a message with custom color property
 log("Error: Something went wrong!", "danger");
 
