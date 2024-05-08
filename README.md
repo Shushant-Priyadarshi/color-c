@@ -7,7 +7,7 @@ This is a simple Node.js module for logging messages with customizable colors. I
 To use this module in your Node.js project, you can install it via npm:
 
 ```bash
-npm install color-c
+npm install console-c
 ```
 ### Available Colors
 - danger: Red
