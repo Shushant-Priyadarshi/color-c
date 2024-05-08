@@ -3,7 +3,7 @@
     "chalk": "^5.3.0"
   },
   "name": "console-c",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "devDependencies": {},
   "type": "module",
