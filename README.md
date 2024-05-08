@@ -1,4 +1,4 @@
-# color-c
+# console-c
 
 This is a simple Node.js module for logging messages with customizable colors. It uses the popular `chalk` library to apply colors to the log messages based on their properties.
 
