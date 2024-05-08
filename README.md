@@ -19,25 +19,25 @@ npm install color-c
 - If a color property is not recognized, the message will be logged with the default color (white).
   
 ```javascript
-import {log} from "console-c"
+import {c} from "console-c"
 
 // Log a message with custom color property
-log("Error: Something went wrong!", "danger");
+c("Error: Something went wrong!", "danger");
 
 // Log a warning message
-log("Warning: Potential issue detected!", "warning");
+c("Warning: Potential issue detected!", "warning");
 
 // Log an info message
-log("Info: Application started successfully.", "info");
+c("Info: Application started successfully.", "info");
 
 // Log a success message
-log("Success: Operation completed.", "success");
+c("Success: Operation completed.", "success");
 
 // Log a debug message
-log("Debug: Additional information for debugging.", "debug");
+c("Debug: Additional information for debugging.", "debug");
 
 // Log a special message
-log("Special: Custom message with special color.", "special");
+c("Special: Custom message with special color.", "special");
 
 ```
 ![chalk](https://github.com/Shushant-Priyadarshi/color-c/assets/148479955/57c9110b-e903-4411-8d23-5542bb92bf92)

@@ -9,10 +9,13 @@ const colors ={
     special:"magenta",
 }
 
-function log(message,property){
+function c(message,property){
     const  color = colors[property] || "white";
     console.log(chalk[color](message.toUpperCase()))
 }
 
-export default log
+
+export {c}
+
+
 
